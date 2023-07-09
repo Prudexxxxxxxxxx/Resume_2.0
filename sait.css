@@ -1,0 +1,166 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    line-height: 25px;
+    font-style: italic;
+    font-size: 20px;
+}
+#p{
+    padding-left: 8px;
+}
+.body{
+ 
+    margin: 0;
+}
+.box0{
+    background:rgb(255, 255, 252);
+}
+.box{
+    display: flex;
+    height: 4200px;
+    border:1px solid #000 ;
+    width: auto;
+    margin-left: 150px;
+    margin-right:150px;
+}
+.box1{
+  
+    width: 30%;
+    background: #3f6592;
+    color: #ffffff;   
+            
+}
+.box2{
+   
+    width: 70%;
+    height: 1600px;
+    background: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.foto{
+    text-align: center;
+    padding: 20px;
+}
+.Danue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    font-family:arial,sans-serif;  
+    font-size: 17px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    
+
+    
+}
+.img{
+    margin: 1   0px;
+}
+.line{
+    
+    background: #a8a3a3;
+
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.oput{
+    
+    border: 1px  #000 solid;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px ;
+    text-align: center;
+
+}
+.fafa {
+    padding-top: 10px;  
+    
+}
+.stasz{
+    display: flex;
+    align-items: center;
+    padding-left: -30px;
+}
+.rabota{
+    padding-left: 20px;
+}
+.data{
+    display: flex;
+    align-items: center;
+}
+.sankt{
+    padding-left: 30px;
+    color: #3f6592;
+}
+.God_mes {
+    display: flex;
+    font-family:sans-serif;
+    padding-top: 10px;
+}
+.spec {
+    margin: 0 auto;
+}
+.knopka {
+    margin-top: 80px;
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #c93c3c; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.knopka:hover {
+    transform: scale(1.2) translateX(1px) ;
+
+}
+.modul {
+    display: none;/*Закрываем от вида всплывающее  окно.*/
+    position: fixed; /*Фиксируем все позиции*/
+    z-index: 1000; /*Чтобы блок окна был на поверхности под ним блока*/ 
+    width: 100%; /*Ширину делаем на всеь блок*/ 
+    height: 100%; /*Высоту делаем на всеь блок*/
+    overflow:auto; /*для того чтобы если элемент или текст не влезают,скролл их автоматически разместит */
+    background: rgb(0,0,0,0.3);
+    margin: 0 auto  ;
+    top: 0px;
+}   
+.sertifikat{
+ margin-left: 250px;
+ background: #f8f8f8;
+ color: #f8f8f8;
+ font-size:15px;
+ font-family:arial,sans-serif;  
+ border-color: 3px solid rgb(233, 239, 231);
+ transition: 0.5s;
+}
+
+.sertifikat1:hover {
+    transform: scale(1.2) translateX(1px) ;
+}
+.close_modul_windows {
+    display: flex;
+    padding-left: 300px;
+    
+    
+    font-size: 50px;
+    color: rgb(251, 0, 0);
+  
+}
+.data-modul-window {
+    margin: 0 auto;
+}
+button.data-modul-btn{
+
+}
+
+.primer:hover{
+    background-color: rgb(235, 2, 119);
+    color: #e9f103;
+}
+
+ /* ======================================================================================================= */
+ 
